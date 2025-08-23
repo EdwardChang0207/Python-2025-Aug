@@ -1,0 +1,3 @@
+s1, s2 = input().split() #Sally McQueen
+print(s1, 'and', s2 ,'sitting in the tree')
+#. 1.的 2.對...做...
