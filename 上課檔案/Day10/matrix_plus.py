@@ -24,6 +24,12 @@ for i in range(m):
 
 print(*m3, sep='\n')
 
+for i in range(m):
+    for j in range(n):
+        m2[i][j] += m1[i][j]
+print(*m2, sep='\n')
+
+
 '''
 row = [m1[0][0]+m2[0][0], m1[0][1]+m2[0][1], ..., m1[0][n-1]+m2[0][n-1]]
 m3.append(row)
